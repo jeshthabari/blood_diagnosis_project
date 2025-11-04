@@ -1,1 +1,13 @@
-# blood_diagnosis_project
+# Automated Screening of Haematological Disorders
+
+This project uses **Machine Learning** to classify blood samples as *Normal* or *Abnormal* based on HPLC test data.
+
+### 🧠 Overview
+- **Language:** Python  
+- **Libraries:** pandas, numpy, scikit-learn, matplotlib, seaborn, joblib  
+- **Best Model:** Random Forest (≈ 99.9% accuracy)
+
+### ⚙️ How to Run
+1. Install dependencies  
+   ```bash
+   pip install -r requirements.txt
