@@ -101,10 +101,13 @@ plt.title("Random Forest Confusion Matrix")
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.tight_layout()
-plt.show()
+plt.savefig("confusion_matrix.png", dpi=300, bbox_inches="tight")
+plt.close()
+print("Confusion matrix saved as confusion_matrix.png")
 
 # =============== STEP 10: Save model for reuse ===============
 joblib.dump({'model': rf, 'scaler': scaler, 'numeric_features': numeric_features,
              'cat_columns': list(df_enc.columns)}, "best_model_random_forest.pkl")
 
 print("\nModel saved as 'best_model_random_forest.pkl'")
+
