@@ -12,6 +12,7 @@ This project uses **Machine Learning** to classify blood samples as *Normal* or 
    ```bash
    pip install -r requirements.txt
 2. Run the script
+    ```bash
    python classify_cells.py
 
 
