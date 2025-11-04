@@ -12,8 +12,8 @@ This project uses **Machine Learning** to classify blood samples as *Normal* or 
    ```bash
    pip install -r requirements.txt
 2. Run the script
-
    python classify_cells.py
+
 
 📊 Dataset
 
@@ -26,5 +26,8 @@ Model	Accuracy
 Random Forest	99.9%
 Logistic Regression	99.6%
 SVM (RBF)	99.4%
+
+### 🧩 Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
 
 Author: Jeshtha Bari
