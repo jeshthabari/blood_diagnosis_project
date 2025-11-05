@@ -39,4 +39,4 @@ All models showed consistent precision, recall, and F1-scores, indicating robust
 
 *Confusion matrix for Random Forest on the extended dataset:*
 
-![Confusion Matrix](results/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
