@@ -112,3 +112,4 @@ joblib.dump({'model': rf, 'scaler': scaler, 'numeric_features': numeric_features
              'cat_columns': list(df_enc.columns)}, "best_model_random_forest.pkl")
 
 print("\nModel saved as 'best_model_random_forest.pkl'")
+
