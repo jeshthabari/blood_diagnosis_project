@@ -5,7 +5,6 @@ This project uses **Machine Learning** to classify blood samples as *Normal* or 
 ### 🧠 Overview
 - **Language:** Python  
 - **Libraries:** pandas, numpy, scikit-learn, matplotlib, seaborn, joblib  
-- **Best Model:** Random Forest (≈ 99.9% accuracy)
 
 ### ⚙️ How to Run
 1. Install dependencies  
@@ -16,9 +15,12 @@ This project uses **Machine Learning** to classify blood samples as *Normal* or 
    python classify_cells.py
 
 
-📊 Dataset
+### 📊 Dataset
 
 Input: HPLC parameters (HbA0, HbA2, HbF, RBC, HB, etc.)
+
+The project now uses an extended dataset (`HPLC_data_extended.csv`) with 50,000 samples, 
+generated synthetically to improve generalization and reduce overfitting.
 
 Output: Diagnosis (Normal / Abnormal)
 
