@@ -24,15 +24,19 @@ generated synthetically to improve generalization and reduce overfitting.
 
 Output: Diagnosis (Normal / Abnormal)
 
-### 📈 Model Comparison
+### 📊 Results
 
-| Model | Accuracy |
-|--------|-----------|
-| Random Forest | 96.8% |
-| Extra Trees | 96.2% |
-| AdaBoost | 94.9% |
-| Logistic Regression | 94.3% |
-| SVM (RBF) | 94.0% |
+| Model | Accuracy | Precision | Recall | F1-Score |
+|--------|-----------|------------|---------|-----------|
+| Logistic Regression | 99.41% | 0.99 | 0.99 | 0.99 |
+| Random Forest | **99.68%** | 1.00 | 0.99 | 0.99 |
+| SVM (RBF) | 99.55% | 0.99 | 0.99 | 0.99 |
+| AdaBoost | 99.57% | 0.99 | 0.99 | 0.99 |
+| Extra Trees | **99.73%** | 1.00 | 0.99 | 0.99 |
 
+✅ **Extra Trees** achieved the highest overall accuracy (~99.7%) on the extended dataset, closely followed by **Random Forest**.
+All models showed consistent precision, recall, and F1-scores, indicating robust classification performance across normal and abnormal cell samples.
 
-Author: Jeshtha Bari
+*Confusion matrix for Random Forest on the extended dataset:*
+
+![Confusion Matrix](results/confusion_matrix.png)
