@@ -22,13 +22,15 @@ Input: HPLC parameters (HbA0, HbA2, HbF, RBC, HB, etc.)
 
 Output: Diagnosis (Normal / Abnormal)
 
-📈 Results
-Model	Accuracy
-Random Forest	99.9%
-Logistic Regression	99.6%
-SVM (RBF)	99.4%
+### 📈 Model Comparison
 
-### 🧩 Confusion Matrix
-![Confusion Matrix](confusion_matrix.png)
+| Model | Accuracy |
+|--------|-----------|
+| Random Forest | 96.8% |
+| Extra Trees | 96.2% |
+| AdaBoost | 94.9% |
+| Logistic Regression | 94.3% |
+| SVM (RBF) | 94.0% |
+
 
 Author: Jeshtha Bari
